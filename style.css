@@ -21,6 +21,46 @@ body {
   margin: 0 auto;
   padding: 2.5rem 1.5rem 3rem;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+/* Top navigation bar */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 0.9rem;
+}
+
+.site-title {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: #8c7d66;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.site-nav a {
+  font-size: 0.86rem;
+  text-decoration: none;
+  color: #5a5247;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.site-nav a:hover {
+  color: #7a5b2f;
+}
+
 
 .hero {
   display: flex;
@@ -182,4 +222,5 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
 
